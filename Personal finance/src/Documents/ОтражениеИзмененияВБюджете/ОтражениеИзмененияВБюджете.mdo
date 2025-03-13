@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="248db0ad-bc30-4969-8663-3704d185ed3a">
+  <producedTypes>
+    <objectType typeId="38accf90-e0ac-4481-b92e-c2745b51a638" valueTypeId="d47751de-db13-431f-bb62-d6ee97cb83a0"/>
+    <refType typeId="4e284499-3c77-44d6-8a9b-a51f5b9026c4" valueTypeId="a293d4db-c197-4714-81b3-569c50442e0e"/>
+    <selectionType typeId="aa8d095b-bf4f-44f4-af01-816bde156004" valueTypeId="b58757c0-3a4c-4772-ab7b-07cfa73b5c04"/>
+    <listType typeId="5c1c71b4-bee0-4217-86cd-65e76ef06169" valueTypeId="18513c5b-97d3-4639-97c1-0f534743ffc7"/>
+    <managerType typeId="99c44a3f-22b0-4a48-9b4c-ec5d49e252db" valueTypeId="a1e0d5a4-c012-4855-88c4-cc9173639395"/>
+  </producedTypes>
+  <name>ОтражениеИзмененияВБюджете</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отражение изменения в бюджете</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОтражениеИзмененияВБюджете.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.Бюджет</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="689677ea-502b-443c-893f-187b37dd0211">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="99f7bd4f-458c-4aa3-a069-24079675aae4">
+    <name>ВидОтражения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид отражения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОтраженийБюджета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыОтраженийБюджета.EnumValue.План</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="29dad5e1-1727-497f-ac41-9b2d0b806e23">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

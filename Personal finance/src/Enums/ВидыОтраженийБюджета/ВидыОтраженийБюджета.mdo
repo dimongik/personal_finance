@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81f8e559-8b70-4190-a1b3-0b5bde2fe28f">
+  <producedTypes>
+    <refType typeId="e316ac29-622e-4f01-b563-1c63fd39006c" valueTypeId="bbc98875-4d87-48ad-8304-7d2c74c18fb4"/>
+    <listType typeId="32a4e9fa-7449-4b0f-b478-701e9be33edf" valueTypeId="7fd575c9-8527-4459-98b8-2220ceefdeba"/>
+    <managerType typeId="7abf3366-da4a-49ca-9e1b-5678d5acea58" valueTypeId="53f72522-23b3-42c4-bb2e-59e6af82398a"/>
+  </producedTypes>
+  <name>ВидыОтраженийБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды отражений бюджета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d29a9f8e-0782-472c-ab35-fd537fb0c3d9">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3323bce-1335-45f2-8577-11efe96ad012">
+    <name>Факт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

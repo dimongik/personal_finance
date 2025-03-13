@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f527b924-e6b0-4e20-b417-2b4178cd02b6">
+  <producedTypes>
+    <managerType typeId="11fe7c67-6f07-4632-ae47-71b0181df674" valueTypeId="1029a069-d31d-4928-8450-2cb0824ea96e"/>
+    <valueManagerType typeId="5d82a115-09b4-4277-b06a-e0d887446917" valueTypeId="9475111f-1b55-4b81-af81-da5f2a5576cf"/>
+    <valueKeyType typeId="d35d4558-14d6-49cc-b7d3-2d11887831eb" valueTypeId="efb03b9e-e021-4389-8a45-395ff7c9c66a"/>
+  </producedTypes>
+  <name>ИспользоватьПодсистемуБюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему &quot;Бюджет&quot;</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

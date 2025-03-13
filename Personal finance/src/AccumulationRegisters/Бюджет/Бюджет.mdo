@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e13286bd-8261-4e1f-bd75-a901a9b8c21e">
+  <producedTypes>
+    <selectionType typeId="ac828d71-0728-4d16-9fd9-7044b13c8873" valueTypeId="d14e4d9c-9db6-4558-b020-828d4b0bc985"/>
+    <listType typeId="74b61196-19c1-4cd6-a455-dfe6d3531b4b" valueTypeId="8941e6c5-4ac3-4d3b-b664-fef3f61f72e2"/>
+    <managerType typeId="0c95f9c0-417a-4adc-a2f2-9d64d9906be5" valueTypeId="b3c5c2f1-36e2-4ea5-83ee-503d2fe2dc5b"/>
+    <recordSetType typeId="9f381957-7e98-4b83-9c42-b04ec8eaea1a" valueTypeId="6fce4a41-4a2f-4c62-bb02-243e37c80dcd"/>
+    <recordKeyType typeId="9e068515-33b5-49e6-aa0f-9340d74b0759" valueTypeId="21efd38a-17b7-4a3e-9c8d-f524b99ff176"/>
+    <recordType typeId="27d9cb68-c1fe-4198-9da1-212b4092f6a4" valueTypeId="2412320a-7597-4615-a3ba-978e4dc9fa3d"/>
+  </producedTypes>
+  <name>Бюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c9eb4111-872f-4a26-a62e-06a6fa951d4f">
+    <name>Факт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потрачено</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="6ca72f4b-e08b-4668-beef-574d5500bbb1">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="854f03f7-f551-435e-a3c4-238693e47874">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

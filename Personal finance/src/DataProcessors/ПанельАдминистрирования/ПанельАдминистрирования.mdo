@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d4dac44-85f5-4261-b48a-6f7e9e1ac2fd">
+  <producedTypes>
+    <objectType typeId="e9c51d42-3a4f-43ac-8343-e161d1aaabb5" valueTypeId="328f368e-075f-4ad5-b0e9-acdb973c8538"/>
+    <managerType typeId="5ff354f4-7990-4217-b1b6-0e1b8256d3cd" valueTypeId="09989bff-54ad-4c32-b4ef-418b7e92f07c"/>
+  </producedTypes>
+  <name>ПанельАдминистрирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="4b1488c0-c8fc-46f5-91ab-9b444c199ba3">
+    <name>НастройкиФункциональности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки функциональности</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ab1f7f9b-df62-4de6-b19e-ef258cc91823">
+    <name>НастройкиФункциональности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки функциональности</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

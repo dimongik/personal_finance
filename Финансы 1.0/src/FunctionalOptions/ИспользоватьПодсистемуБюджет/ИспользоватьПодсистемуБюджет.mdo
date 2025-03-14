@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f32cf226-0397-4798-9c3f-74bcc5c4bfa0">
+  <name>ИспользоватьПодсистемуБюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему &quot;Бюджет&quot;</value>
+  </synonym>
+  <location>Constant.ИспользоватьПодсистемуБюджет</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.Бюджет</content>
+  <content>Catalog.СтатьиЗатрат</content>
+  <content>Subsystem.Бюджет.Subsystem.НСИ</content>
+</mdclass:FunctionalOption>

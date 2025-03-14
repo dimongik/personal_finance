@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a426eb37-8d21-44cf-98ba-e9f8f263d3cd">
+  <producedTypes>
+    <objectType typeId="db02edd7-a8bb-423b-9e54-fb41cd30a82a" valueTypeId="4bdbc128-c282-4c47-aef5-91347b6ad13e"/>
+    <refType typeId="eaae89ae-468c-4152-a2ba-e572c23c4635" valueTypeId="f24e6063-2bb0-407f-a86d-0c8d2aa9a703"/>
+    <selectionType typeId="f1f60a6a-d71c-4e2e-999b-c3aa19bf60ee" valueTypeId="2f269344-17ee-4735-828f-0a7a8a234bb9"/>
+    <listType typeId="4217253e-d6a3-40ee-a48f-1ec27d3060ab" valueTypeId="cb0fa1c1-ee1e-4576-a114-ea9b29027a82"/>
+    <managerType typeId="897d3cfe-33e3-45df-8b7b-263ebbaed33c" valueTypeId="5fd4c6cc-e53b-45ac-95a7-8e9f3cdbd917"/>
+  </producedTypes>
+  <name>СтатьиЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиЗатрат.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockFields>Catalog.СтатьиЗатрат.Attribute.ИмяДляРазработчика</dataLockFields>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатьиЗатрат.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтатьиЗатрат.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="5fef4ed5-3a25-49b7-9db3-e41da212e292">
+    <name>НеИспользовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f8e93706-5e6b-41a2-acdf-0fed282b2a27">
+    <name>ПлановаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6ec0781c-f14d-4c0f-8457-59a1bedb23e4">
+    <name>ИмяДляРазработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя для разработчика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3088d6cf-7b40-4471-91ba-efb798d53b3c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ac44d631-43fc-46ac-876b-cee7050ff6f5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5b9c1d5d-3bbc-46e5-aa8c-ac9c13cd448a">
+    <name>СтатьиПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статьи по умолчанию</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

@@ -198,6 +198,7 @@
       <key>ru</key>
       <value>Форма1</value>
     </synonym>
+    <comment>ком</comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

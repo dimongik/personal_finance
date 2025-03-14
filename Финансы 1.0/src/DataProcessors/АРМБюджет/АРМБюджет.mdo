@@ -192,6 +192,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="122d7129-e61f-429f-954c-c893e47c68e1">
+    <name>Форма1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="441d5c67-c89f-4a4b-8cf8-dfba6ec04690">
     <name>СтатьиЗатрат</name>
     <synonym>

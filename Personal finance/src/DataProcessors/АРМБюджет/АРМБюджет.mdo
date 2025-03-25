@@ -97,6 +97,22 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
   </attributes>
+  <attributes uuid="9e54d1f4-8c03-4d49-87f0-0c16245682cb">
+    <name>ИтогоПоСтатье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итого по статье</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <tabularSections uuid="ee962b36-062b-4b74-ac58-0e594b056281">
     <producedTypes>
       <objectType typeId="f404d13a-a955-4025-b8c3-afd8c93607c0" valueTypeId="b090a3cf-e170-49d7-ac3b-b06499d3fd25"/>
@@ -197,6 +213,14 @@
       <value>Форма</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a45b5478-7833-400f-9d4f-3938ee92a8bc">
+    <name>ФормаМобильная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма мобильная</value>
+    </synonym>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <commands uuid="441d5c67-c89f-4a4b-8cf8-dfba6ec04690">

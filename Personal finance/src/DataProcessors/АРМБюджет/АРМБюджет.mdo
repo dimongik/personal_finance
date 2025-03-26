@@ -205,6 +205,23 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
+    <attributes uuid="bcee512b-bb51-4a0d-bd88-0cf1a58268c2">
+      <name>СуммаОстаток</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма остаток</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
   </tabularSections>
   <forms uuid="01ee97b2-db12-46d2-8efc-fb72267066a0">
     <name>Форма</name>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccd618b0-cedd-494e-b122-b0dc5435dc92">
+  <producedTypes>
+    <managerType typeId="3b0ab7b5-460f-419c-872f-17278b6f7864" valueTypeId="a63953a4-dd49-492f-ac7b-a4bdcfe3f6dc"/>
+    <valueManagerType typeId="58288339-8041-46c2-870f-e34091416056" valueTypeId="d58d7ba2-0706-411b-bc76-9f705ba98232"/>
+    <valueKeyType typeId="f8f62de7-32bd-432c-9976-f723576556e8" valueTypeId="c4a182ca-9a76-4d0c-a321-5fea758a7fcb"/>
+  </producedTypes>
+  <name>ДанныеТабличногоДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные табличного документа</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

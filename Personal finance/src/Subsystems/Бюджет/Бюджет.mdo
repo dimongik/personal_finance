@@ -10,6 +10,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Бюджет_50</picture>
   </picture>
+  <content>DataProcessor.АРМБюджет</content>
   <subsystems>НСИ</subsystems>
   <subsystems>Документы</subsystems>
 </mdclass:Subsystem>

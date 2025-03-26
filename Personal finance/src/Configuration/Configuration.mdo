@@ -84,6 +84,10 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Для теста</value>
+  </detailedInformation>
   <splash/>
   <copyright>
     <key>ru</key>
